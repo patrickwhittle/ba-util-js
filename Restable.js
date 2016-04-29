@@ -1,6 +1,7 @@
 import isObjectLike from 'lodash/isObjectLike'
 import isArray from 'lodash/isArray'
 import 'object-assign'
+import 'isomorphic-fetch'
 
 export default class Restable {
 

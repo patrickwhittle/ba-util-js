@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/patrickwhittle/ba-util-js#readme",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.11.1"
   },
   "jspm": {
-    "format":"es6"
+    "format": "es6"
   }
 }

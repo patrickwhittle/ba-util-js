@@ -1,3 +1,5 @@
+import 'isomorphic-fetch'
+
 export default class Restables extends Set { 
 
   constructor(model, models) {
