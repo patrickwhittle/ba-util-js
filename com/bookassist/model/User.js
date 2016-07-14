@@ -4,7 +4,7 @@ import mapValues from 'lodash/mapValues'
 import isObject from 'lodash/isObject'
 import isArray from 'lodash/isArray'
 
-export default class extends Restable {
+class User extends Restable {
 
   constructor(obj) {
     super()
@@ -154,3 +154,12 @@ export default class extends Restable {
   }
 
 }
+
+User.ACTIVE = "active"
+User.BA_GLOBAL_USER = 0
+User.BA_HOTEL_USER = 2
+User.BA_SUPER_USER = 1
+User.BA_SYSTEM = 100
+User.DISABLED = "disabled"
+
+export default User
