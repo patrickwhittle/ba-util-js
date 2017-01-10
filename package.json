@@ -25,7 +25,7 @@
     "format": "es6",
     "dependencies": {
       "isomorphic-fetch": "npm:isomorphic-fetch@^2.2.1",
-      "lodash": "npm:isomorphic-fetch@^4.11.0"
+      "lodash": "npm:isomorphic-fetch@^4.11.1"
     }
   }
 }
